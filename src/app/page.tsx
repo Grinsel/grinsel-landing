@@ -25,7 +25,7 @@ export default function Home() {
           <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Cosplay Digital Gadgets */}
             <a
-              href="/gadgets/"
+              href="https://cosplay-digital-gadgets-production.up.railway.app/gadgets/"
               className="bg-cyber-darker border border-cyber-accent/20 rounded-lg p-8 card-hover block"
             >
               <div className="text-4xl mb-4">📱</div>
@@ -45,23 +45,29 @@ export default function Home() {
               </span>
             </a>
 
-            {/* Tablecast TTV - Coming Soon */}
-            <div className="bg-cyber-darker border border-cyber-blue/20 rounded-lg p-8 opacity-60">
+            {/* Tablecast VTT */}
+            <a
+              href="https://git07-production.up.railway.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-cyber-darker border border-cyber-blue/20 rounded-lg p-8 card-hover block"
+            >
               <div className="text-4xl mb-4">🎲</div>
               <h3 className="text-2xl font-bold text-white mb-2">
-                Tablecast TTV
+                TableCast VTT
               </h3>
               <p className="text-gray-400 mb-4">
-                Tabletop streaming tools and utilities for content creators. Coming soon.
+                Virtual Tabletop for Pen &amp; Paper RPGs. Multi-session support, real-time sync, 6 themes.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="px-2 py-1 bg-cyber-blue/20 text-cyber-blue text-xs rounded">Tabletop</span>
-                <span className="px-2 py-1 bg-cyber-blue/20 text-cyber-blue text-xs rounded">Streaming</span>
+                <span className="px-2 py-1 bg-cyber-blue/20 text-cyber-blue text-xs rounded">RPG</span>
+                <span className="px-2 py-1 bg-cyber-blue/20 text-cyber-blue text-xs rounded">Free</span>
               </div>
-              <span className="text-gray-500 font-semibold">
-                Coming Soon
+              <span className="text-cyber-blue font-semibold">
+                Open TableCast →
               </span>
-            </div>
+            </a>
           </section>
         </div>
       </main>
@@ -73,10 +79,10 @@ export default function Home() {
             © {new Date().getFullYear()} Grinsel / Marc Schmelzer
           </p>
           <div className="flex justify-center gap-4">
-            <a href="/gadgets/impressum/" className="hover:text-cyber-accent transition-colors">
+            <a href="https://cosplay-digital-gadgets-production.up.railway.app/gadgets/impressum/" className="hover:text-cyber-accent transition-colors">
               Legal Notice
             </a>
-            <a href="/gadgets/privacy/" className="hover:text-cyber-accent transition-colors">
+            <a href="https://cosplay-digital-gadgets-production.up.railway.app/gadgets/privacy/" className="hover:text-cyber-accent transition-colors">
               Privacy
             </a>
           </div>
