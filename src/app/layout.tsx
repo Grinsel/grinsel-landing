@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://placehold.co/1200x630/0a0a0f/00ff9d?text=Grinsel',
+        url: '/og_image.png',
         width: 1200,
         height: 630,
         alt: 'Grinsel - Digital Projects',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Grinsel - Digital Projects',
     description: 'Digital projects by Marc Schmelzer',
-    images: ['https://placehold.co/1200x630/0a0a0f/00ff9d?text=Grinsel'],
+    images: ['/og_image.png'],
   },
   alternates: {
     canonical: 'https://grinsel.online',
