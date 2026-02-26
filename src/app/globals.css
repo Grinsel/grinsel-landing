@@ -24,3 +24,10 @@ body {
   transform: translateY(-4px);
   border-color: rgba(0, 255, 157, 0.4);
 }
+
+/* Focus States for Accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #00ff9d;
+  outline-offset: 2px;
+}

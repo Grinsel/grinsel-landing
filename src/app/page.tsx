@@ -28,7 +28,7 @@ export default function Home() {
               href="https://cosplay-digital-gadgets-production.up.railway.app/gadgets/"
               className="bg-cyber-darker border border-cyber-accent/20 rounded-lg p-8 card-hover block"
             >
-              <div className="text-4xl mb-4">📱</div>
+              <div className="text-4xl mb-4" role="img" aria-label="Mobile App Icon">📱</div>
               <h3 className="text-2xl font-bold text-white mb-2">
                 Cosplay Digital Gadgets
               </h3>
@@ -52,7 +52,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="bg-cyber-darker border border-cyber-blue/20 rounded-lg p-8 card-hover block"
             >
-              <div className="text-4xl mb-4">🎲</div>
+              <div className="text-4xl mb-4" role="img" aria-label="Dice Icon">🎲</div>
               <h3 className="text-2xl font-bold text-white mb-2">
                 TableCast VTT
               </h3>
